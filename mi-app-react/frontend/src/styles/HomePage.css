@@ -1,0 +1,29 @@
+.home-triangle {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid red;
+  border-bottom: 100px solid transparent;
+}
+
+.home-container {
+  background: #e6e6e6;
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.home-title {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.home-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
